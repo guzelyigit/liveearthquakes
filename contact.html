@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="../css/component.css">
+</head>
+<body>
+    <!-- Header -->
+    <section class="my-header">
+        <div class="container-fluid">
+            <div class="row" >
+                <!-- Logo -->
+                <div class="col-md-6">
+                    <div class="row" >
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4" >
+                            <a href="/">
+                                <img src="../img/logo.png" alt="Logo" srcset="" >
+                            </a>
+                        </div>
+                        <div class="col-md-4"></div>
+
+                    </div>
+                </div>
+
+                <!-- Menu -->
+                <div class="col-md-6">
+                    <div class="row" >
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div class="row" > 
+                                <div class="col-md-3">
+                                    <a href="/" ><span >Home</span></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="/about" ><span >About</span></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="/contact" ><span >Contact</span></a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="/donate" ><span >Donate</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Body -->
+    <section class="my-body">
+        <div class="container-fluid mt-2 mb-2" style="background-color: #f0f0f0; border-radius: 2vw 2vw 2vw 2vw;padding: 10vh;">
+            
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <div class="row">
+                    <div class="col-md-3 offset-md-3">
+                        <h2>Contact</h2>
+                        <hr>
+                        <form method="dialog">
+                            <div class="mb-3 name-field">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control name-field-inpt" id="name" placeholder="Enter your name" pattern="[A-Za-z\s]+" required>
+                                <p class="name-field-desc field-desc" style="font-weight: bold; color: red;"></p>
+                            </div>
+                            <div class="mb-3 email-field">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control email-field-inpt" id="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                                <p class="email-field-desc field-desc" style="font-weight: bold; color: red;"></p>
+                            </div>
+                            <div class="mb-3 message-field">
+                                <label for="message" class="form-label">Message</label>
+                                <input type="text" class="form-control amount-field-inpt" id="amount" placeholder="Enter your messasge" required>
+                                <p class="amount-field-desc field-desc" style="font-weight: bold; color: red;"></p>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary message-send-btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3094.4042145815906!2d34.118018359057714!3d39.142787014294264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d50d492db57789%3A0x7f131464dc8c810c!2zTcO8aGVuZGlzbGlrIE1pbWFybMSxayBGYWvDvGx0ZXNp!5e0!3m2!1str!2str!4v1715803610394!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border-radius: 20px;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="my-footer">
+        <div class="container-fluid" >
+            <div class="container" >
+
+                <div class="row" >
+                    <!-- Logo -->
+                    <div class="col-md-4">
+                        <div class="container">
+                            <img src="../img/logo-big.png" alt="" srcset="" >
+                        </div>
+                    </div>
+                    <!-- Adres pages  iletişim-->
+                    <div class="col-md-4">
+                        <div class="container">
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>Pages</h4>
+                                    <hr>
+                                    <ul > 
+                                        <li><a href="/" >Home</a></li>
+                                        <li><a href="/about" >About</a></li>
+                                        <li><a href="/contact" >Contact</a></li>
+                                        <li><a href="/donate" >Donate</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>Address</h4>
+                                    <hr>
+                                    <p><cite>Bağbaşı Mahallesi Kırşehir Ahi Evran Üniversitesi Mühendislik Fakültesi Kırşehir/Türkiye 40000</cite></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>Contact</h4>
+                                    <hr>
+                                    <p style="margin-bottom: 0!important;">Phone: <a href="tel:+9008504410244" style="text-decoration: none;"> 0(850) 441 02 44</a></p>
+                                    <p>Email: <a href="mailto:muratisik@ahievran.edu.tr" style="text-decoration: none;">muratisik@ahievran.edu.tr</a></p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- social media buttons vith png -->
+                    <div class="col-md-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>Follow Us</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <a href="https://www.facebook.com/ahievranedutr/" ><img src="/img/facebook-icon.png" alt="Facebook" srcset="" style="max-width: 3vw;"></a>
+                                    <a href="https://www.instagram.com/ahievranedutr/" ><img src="/img/instagram-icon.png" alt="Instagram" srcset="" style="max-width: 3vw;"></a>
+                                    <a href="https://twitter.com/ahievranedutr/" ><img src="/img/x-logo.png" alt="Twitter" srcset="" style="max-width: 3vw;"></a>
+                                    <!-- <a href="https://www.linkedin.com/school/ahi-evran-u%CC%88niversitesi/" ><img src="/img/website-icon.png" alt="Linkedin" srcset="" style="max-width: 3vw;"></a> -->
+                                    <a href="https://www.youtube.com/channel/UCkc7D7n3cKKok8j3zA8Qb5g/" ><img src="/img/youtube-icon.png" alt="Youtube" srcset="" style="max-width: 3vw;"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

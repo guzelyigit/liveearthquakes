@@ -1,1 +1,92 @@
+/* Header */
+.my-header > .container-fluid {
+    background-color: #f0f0f0; 
+    border-radius: 0vh 0vh 2vw 2vw;
+}
 
+.my-header > .container-fluid > .row {
+    max-height: 10vh; 
+    display: flex; 
+    flex-direction: row; 
+    align-content: space-around; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.my-header > .container-fluid > .row > .col-md-6:first-child > .row {
+    display: flex; 
+    flex-direction: row; 
+    align-content: space-around; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.my-header > .container-fluid > .row > .col-md-6:first-child > .row > .col-md-4:nth-child(2) {
+    max-height: 10vh; 
+    display: flex;
+    max-height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.my-header > .container-fluid > .row > .col-md-6:first-child > .row > .col-md-4 > a > img {
+    max-height: 10vh;
+}
+
+.my-header > .container-fluid > .row > .col-md-6:nth-child(2) > .row > .col-md-6 > .row {
+    min-height: 10vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.my-header > .container-fluid > .row > .col-md-6:nth-child(2) > .row > .col-md-6 > .row > .col-md-3 > a {
+    padding: 3vh; 
+    text-decoration: none;
+}
+
+.my-header > .container-fluid > .row > .col-md-6:nth-child(2) > .row > .col-md-6 > .row > .col-md-3 > a > span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* End Header */
+
+
+
+/* Footer */
+
+.my-footer > .container-fluid {
+    background-color: #f0f0f0; 
+    border-radius: 2vw 2vw 0vh 0vh;
+}
+
+.my-footer > .container-fluid > .container { 
+    min-height: 50vh; 
+    display: flex;
+}
+.my-footer > .container-fluid > .container > .row {
+    display: flex; 
+    flex-direction: row; 
+    align-content: space-around; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.my-footer > .container-fluid > .container > .row > .col-md-4:first-child > .container > img {
+    max-width: -webkit-fill-available; 
+    border-radius: 10px;
+}
+
+.my-footer > .container-fluid > .container > .row > .col-md-4:nth-child(2) > .container > .row > .col-md-12 > ul {
+    text-decoration: none; 
+}
+
+.my-footer > .container-fluid > .container > .row > .col-md-4:nth-child(2) > .container > .row > .col-md-12 > ul > li > a {
+    text-decoration: none;
+}
+
+.my-footer > .container-fluid > .container > .row > .col-md-4:nth-child(3) > .container > .row:nth-child(2) > .col-md-12 > a {
+    text-decoration: none;
+}
+/* End Footer */
